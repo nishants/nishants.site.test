@@ -1,8 +1,16 @@
+## Creating a new Feature
+## Creating a step file
+## Creating data for step file
+## Create users
+## Run Tests in Chrome Emulator
+## Create New Environment
+## Create a Build Pipeline
+creatcr
 ## Running Tests
 
 ### By Tag
 ```bash
-rake test:<functional|integration>:<tag>:<mobile|bigweb|all> tags=@tag [options]
+rake test:<functional|integration>:<mobile|bigweb|all> tags=@tag [options]
 ```
 - example
 ```bash
@@ -16,7 +24,8 @@ rake test:functional:tag:all tags=@one
 rake test:integration:tag:mobile tags=@one
 
 ```
-### By Priority
+
+### Running Tests By Priority
 ```bash
 rake test:<functional|integration>:<smoke|core|regression>:<mobile|bigweb|all> [options]
 ```
@@ -26,11 +35,6 @@ rake test:functional:smoke:all
 rake test:integration:regression:bigweb
 rake test:integration:core:mobile 
 
-```
-
-### By test type
-```bash
-rake test:<functional|integration>:<mobile|bigweb|all> [options]
 ```
 
 ### Options
@@ -43,3 +47,5 @@ rake test:functional:smoke:bigweb env=ci  users=stubbed
 rake test:functional:tag:bigweb env=dev tags=@one users=stubbed url=google.com report_file=abc.html client=firefox data_suite=default page_dir=default 
    
 ```
+
+
