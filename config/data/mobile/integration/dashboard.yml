@@ -1,3 +1,0 @@
-Dashboard view for admin user:
-  active_users: [["name","email","/Minute|Hour|Day/"]]
-  welcome_message : "Welcome [A-Za-z]+ on bigweb"

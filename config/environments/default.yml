@@ -3,8 +3,7 @@ urls :
   stubbed : http://localhost:4567/
   
 data :
-  default : config/data/bigweb
-  mobile  : config/data/mobile
+  default : config/data
 
 page_dir:
   default : ./src/bigweb/pages
