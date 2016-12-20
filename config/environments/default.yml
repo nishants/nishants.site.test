@@ -6,8 +6,7 @@ data :
   default : config/data
 
 page_dir:
-  default : ./src/bigweb/pages
-  mobile  : ./src/mobile/pages
+  default : ./src/pages
 
 users :
   default : config/users.yml
